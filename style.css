@@ -1,4 +1,65 @@
-#grid{
+#btnSubmit{
+    width:100px;
+    margin:auto;
+    display:block;
+}
+
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 50px 1.5fr;
+    grid-template-areas: 
+    "player1 player2"
+    "compare compare"
+    "p1_unit p2_unit";
+    place-items: center;
+    border: 1px solid #000;
+    grid-row-gap:20px;
+
+}
+
+.player1{
+    grid-area: player1;
+    /*background-color: yellow;*/
+    border: 1px solid #000;
+    width:80%;
+    height:350px;
+    padding-top: 30px;
+}
+
+.player2{
+    grid-area: player2;
+    /*background-color: yellow;*/
+    border: 1px solid #000;
+    width:80%;
+    height:350px;
+    padding-top: 30px;
+}
+
+.compare{
+    grid-area: compare;
+     /*background-color: yellow;*/
+    align-self: end;
+}
+
+.player1_unit{
+    grid-area: p1_unit;
+    /*background-color: yellow;*/
+    width:90%;
+    height:95%;
+    border:1px solid red;
+    align-self: start;
+}
+
+.player2_unit{
+    grid-area: p2_unit;
+    /*background-color: yellow;*/
+    width:90%;
+    height:95%;
+    border:1px solid blue;
+    align-self: start;
+}
+
+div{
+     text-align: center; 
 }
