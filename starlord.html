@@ -5,6 +5,7 @@
   <style>
     div { text-align: center; }
   </style>
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body bgcolor="#999999">
   <script>
@@ -35,52 +36,54 @@
       display:block;
     }
   </style>
-  <div style="width:450px; height:450px; border:1px;float:left;margin-left:2%;"> <!-- 이미지 크기 변경할때 픽섹변경도 같이 -->
-    <img src="media/sample(450x450).png"/>
-    <p>
-      <!-- <form action='star-lord-main.tribe'>
-        starcraft 종족<br>
-        <input type='radio' name='tribe' value='jerg' checked/>저그
-        <input type='radio' name='tribe' value='protoss' />프로토스
-        <input type='radio' name='tribe' value='terran' />테란
-        <br>
-        <input type='submit'>
-      </form> -->
-      <select onchange="categoryChange(this)">
-        <option>종족을 선택해주세요</option>
-        <option value="a">저그</option>
-        <option value="b">프로토스</option>
-        <option value="c">테란</option>
-      </select>
-      <select id="unit">
-      <option>유닛을 선택해주세요</option>
-      </select>
-    </p>
+  <div id="grid">
+    <div style="width:450px; height:350px; border:1px;float:left;margin-left:2%;"> <!-- 이미지 크기 변경할때 픽섹변경도 같이 -->
+      <img src="media/sample(450x450).png"/>
+      <p>
+        <!-- <form action='star-lord-main.tribe'>
+          starcraft 종족<br>
+          <input type='radio' name='tribe' value='jerg' checked/>저그
+          <input type='radio' name='tribe' value='protoss' />프로토스
+          <input type='radio' name='tribe' value='terran' />테란
+          <br>
+          <input type='submit'>
+        </form> -->
+        <select onchange="categoryChange(this)">
+          <option>종족을 선택해주세요</option>
+          <option value="a">저그</option>
+          <option value="b">프로토스</option>
+          <option value="c">테란</option>
+        </select>
+        <select id="unit">
+        <option>유닛을 선택해주세요</option>
+        </select>
+      </p>
+    </div>
+  
+    <div style="width:450px; height:350px; border:1px;float:right;margin-right:2%;"> <!-- 이미지 크기 변경할때 픽섹변경도 같이 -->
+      <img src="media/sample(450x450).png"/>
+      <p>
+        <!-- <form action='star-lord-main.tribe'>
+          starcraft 종족<br>
+          <input type='radio' name='tribe' value='jerg' checked/>저그
+          <input type='radio' name='tribe' value='protoss' />프로토스
+          <input type='radio' name='tribe' value='terran' />테란
+          <br>
+          <input type='submit'>
+        </form> -->
+        <select onchange="categoryChange(this)">
+          <option>종족을 선택해주세요</option>
+          <option value="a">저그</option>
+          <option value="b">프로토스</option>
+          <option value="c">테란</option>
+        </select>
+        <select id="unit">
+        <option>유닛을 선택해주세요</option>
+        </select>
+      </p>
+    </div>
   </div>
-</body>
-<body>
-  <div style="width:450px; height:450px; border:1px;float:right;margin-right:2%;"> <!-- 이미지 크기 변경할때 픽섹변경도 같이 -->
-    <img src="media/sample(450x450).png"/>
-    <p>
-      <!-- <form action='star-lord-main.tribe'>
-        starcraft 종족<br>
-        <input type='radio' name='tribe' value='jerg' checked/>저그
-        <input type='radio' name='tribe' value='protoss' />프로토스
-        <input type='radio' name='tribe' value='terran' />테란
-        <br>
-        <input type='submit'>
-      </form> -->
-      <select onchange="categoryChange(this)">
-        <option>종족을 선택해주세요</option>
-        <option value="a">저그</option>
-        <option value="b">프로토스</option>
-        <option value="c">테란</option>
-      </select>
-      <select id="unit">
-      <option>유닛을 선택해주세요</option>
-      </select>
-    </p>
-  </div>
+ 
 </body>
 <br>
 <br>
@@ -91,15 +94,17 @@
   <input type="submit" name="submit" id="btnSubmit">
 </form>
 <body>
-  <br>
-  <div style="width:45%; height:500px; border:1px solid red;float:left;margin-left:2%;">
-    첫번째 영역:
-    유닛 설명
-  </div>
-  <div style="width:45%; height:500px; border:1px solid blue;float:right;margin-right:2%;">
-    두번째 영역:
-    유닛 설명
-  </div><div style="clear:both:"></div>
+  
+    <br>
+    <div style="width:45%; height:500px; border:1px solid red;float:left;margin-left:2%;">
+      첫번째 영역:
+      유닛 설명
+    </div>
+    <div style="width:45%; height:500px; border:1px solid blue;float:right;margin-right:2%;">
+      두번째 영역:
+      유닛 설명
+    </div><div style="clear:both:"></div>
+  
 </body>
 </html>
 
