@@ -1,4 +1,4 @@
-class Unit {
+export default class Unit {
     constructor(
         attackPower, // 공격력
         attackRange, // 공격 범위

@@ -1,0 +1,20 @@
+{
+  "name": "star-lord",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "2022년 1학기 경북대학교 컴퓨터학부 글로벌소프트웨어융합전공 소프트웨어 공학 및 테스팅 프로젝트",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuyeopJang/star-lord.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuyeopJang/star-lord/issues"
+  },
+  "homepage": "https://github.com/JuyeopJang/star-lord#readme"
+}
