@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 export class Unit {
+=======
+export default class Unit {
+>>>>>>> origin/main
     constructor(
         attackPower, // 공격력
         attackRange, // 공격 범위
@@ -33,4 +37,7 @@ export class Unit {
         this.attackPower = attackPower;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
