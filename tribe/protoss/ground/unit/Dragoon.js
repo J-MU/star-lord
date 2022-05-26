@@ -1,5 +1,9 @@
-import GroundProtossUnit from '../GroundProtossUnit';
+import GroundProtossUnit from '../GroundProtossUnit.js';
 
-class Dragoon extends GroundProtossUnit {
+export default class Dragoon extends GroundProtossUnit {
+    attackPower
     upgradeAttackRange() {}
+    
 }
+
+console.log('Hello');

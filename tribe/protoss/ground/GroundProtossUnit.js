@@ -1,6 +1,8 @@
 import Protoss from '../Protoss';
 
-class GroundProtossUnit extends Protoss {
+export default class GroundProtossUnit extends Protoss {
     upgradeOffensePower() {} 
     upgradeDefensePower() {}
 }
+
+
